@@ -23,7 +23,7 @@
   debug.warn('This is a warning message');
 }`
 
-### Console Output Examples:
+### Output Examples:
 `[MyApp] [someFunction @ script.js:5] This is a debug message`
 `[MyApp] [someFunction @ script.js:11] An error occurred: Error: Something went wrong`
 `[MyApp] [someFunction @ script.js:14] This is a warning message`

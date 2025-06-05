@@ -1,4 +1,4 @@
-# js-debug-logger
+# Debug Logger in Javascrypt/Typescript
 
 ### Debug logging utility with call stack tracking and configurable output
  

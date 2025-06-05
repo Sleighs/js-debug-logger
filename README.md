@@ -6,22 +6,20 @@
 ## Example usage:
 
 ### Create a logger instance
-const debug = new DebugLogger({
+`const debug = new DebugLogger({
   debugMode: true, // Enable/disable debug logging
   prefix: '[MyApp]' // Custom prefix for log messages
-});
+});`
 
 ### Usage examples
 `function someFunction() {
   debug.log('This is a debug message');
-  
   try {
     // Some code that might throw
     throw new Error('Something went wrong');
   } catch (error) {
     debug.error('An error occurred', error);
   }
-  
   debug.warn('This is a warning message');
 }`
 
@@ -34,10 +32,10 @@ const debug = new DebugLogger({
 
 ## To Use
 ### CommonJS (Node.js)
-const DebugLogger = require('./debug-logger');
+c`onst DebugLogger = require('./debug-logger');`
 
 ### ES Modules
-import DebugLogger from './debug-logger';
+`import DebugLogger from './debug-logger';`
 
 ### Browser (global)
-const debug = new window.DebugLogger();
+`const debug = new window.DebugLogger();`

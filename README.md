@@ -23,16 +23,16 @@
   debug.warn('This is a warning message');
 }`
 
-### Output examples:
-// [MyApp] [someFunction @ script.js:5] This is a debug message
-// [MyApp] [someFunction @ script.js:11] An error occurred: Error: Something went wrong
-// [MyApp] [someFunction @ script.js:14] This is a warning message
+### Console Output Examples:
+`[MyApp] [someFunction @ script.js:5] This is a debug message`
+`[MyApp] [someFunction @ script.js:11] An error occurred: Error: Something went wrong`
+`[MyApp] [someFunction @ script.js:14] This is a warning message`
 
 
 
 ## To Use
 ### CommonJS (Node.js)
-c`onst DebugLogger = require('./debug-logger');`
+`const DebugLogger = require('./debug-logger');`
 
 ### ES Modules
 `import DebugLogger from './debug-logger';`
